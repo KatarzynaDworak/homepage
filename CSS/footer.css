@@ -1,0 +1,13 @@
+.footer {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px 0 5px 0;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rebeccapurple;
+    border-top: solid rebeccapurple thin;
+    text-align: center;
+}

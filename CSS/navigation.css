@@ -1,0 +1,39 @@
+.navigation {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-style: normal;
+    padding: 0;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    border-bottom: solid rebeccapurple thin;
+}
+
+.navigation__list {
+    list-style: none;
+    list-style-type: none;
+    /* color: crimson; */
+    text-decoration: none;
+    padding: 2px 0 2px 0;
+    color: rebeccapurple;
+}
+
+.navigation__list:visited {
+    color: rgb(113, 72, 153);
+}
+
+.navigation__list:focus {
+    outline: 2px solid currentColor;
+}
+
+.navigation__list:hover {
+    color: rgb(208, 184, 231);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__list:active {
+    color: rgb(39, 1, 77);
+}

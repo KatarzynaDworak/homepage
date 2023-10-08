@@ -1,0 +1,32 @@
+.article {
+    max-width: 1000px;
+    margin: 10px auto 0px;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    list-style: none;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    padding: 5px 0 5px 0;
+}
+
+.article__image {
+text-align: left;
+}
+
+.article__header {
+    color: rebeccapurple;
+    padding-top: 0px;
+}
+
+.article__link {
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.article__item {
+    color: rebeccapurple;
+}
