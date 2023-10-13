@@ -34,4 +34,12 @@ switch(modul) {
     howMuch.innerText = "not a lot of";
 }
 
+function double(number) {
+    return number * 2;
+}
 
+console.log(double(5));
+console.log(double(10));
+
+let triple = myNumber => myNumber * 2;
+console.log(triple(10));
