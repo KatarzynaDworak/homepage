@@ -7,7 +7,7 @@ Welcome to my personal online portfolio. You can check out what my programming s
 https://katarzynadworak.github.io/homepage/
 
 Technologies used:
-HTML
-CSS
-JS
-BEM
+- HTML
+- CSS
+- JS
+- BEM
