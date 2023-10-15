@@ -5,3 +5,9 @@ Welcome to my personal online portfolio. You can check out what my programming s
 
 # demo
 https://katarzynadworak.github.io/homepage/
+
+Technologies used:
+HTML
+CSS
+JS
+BEM
