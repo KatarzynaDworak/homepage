@@ -11,3 +11,5 @@ Technologies used:
 - CSS
 - JS
 - BEM
+- Flexbox
+- ES6+ Features in JS
