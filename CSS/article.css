@@ -13,6 +13,8 @@
 
 .article__image {
 text-align: left;
+max-width: 30px;
+max-height: 50px;
 }
 
 .article__header {
