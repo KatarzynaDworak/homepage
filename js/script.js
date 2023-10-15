@@ -7,12 +7,6 @@ changeBackground.addEventListener("click", () => {
     body.classList.toggle("body--white");
 } );
 
-function double(number) {
-    return number * 2;
+function section {
+
 }
-
-console.log(double(5));
-console.log(double(10));
-
-let triple = myNumber => myNumber * 2;
-console.log(triple(10));
