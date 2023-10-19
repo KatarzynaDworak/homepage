@@ -1,14 +1,22 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+    console.log("Witam serdecznie wszystkich developerów, którzy tu zaglądają!");
+}
 
-const changeBackground = (background) => {
+let toggleBackground = () => {
+    const body = document.documentElement;
+    const changeBackground = document.querySelector(".js-changeBackground");
+    
     body.classList.toggle("body--white");
+    changeBackground.innerText = body.classList.contains("body--white") ? "body" : "body--white";
 };
 
 const init = () => {
-    const background = document.querySelector(".js-background");
-    const body = document.querySelector(".js-body");
-    changeBackground(background);
-    changeBackground(body);
-};
+    const changeBackground = document.querySelector(".js-changeBackground");
+    
+    changeBackgroundButton.addEventListener("click", toggleBackground);
 
+    welcome();
+};
 init();
+}
