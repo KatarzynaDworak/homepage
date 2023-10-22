@@ -8,11 +8,11 @@ let toggleBackground = () => {
     const changeBackground = document.querySelector(".js-changeBackground");
     
     body.classList.toggle("body--white");
-    changeBackground.innerText = body.classList.contains("body--white") ? "white" : "grey";
+    changeBackground.innerText = body.classList.contains("body--white") ? "white" : "#eee";
 };
 
 const init = () => {
-    const changeBackground = document.querySelector(".js-changeBackground");
+    const changeBackgroundButton = document.querySelector(".js-changeBackground");
     
     changeBackgroundButton.addEventListener("click", changeBackground);
 
