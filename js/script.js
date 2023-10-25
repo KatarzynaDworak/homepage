@@ -12,7 +12,7 @@ let toggleBackground = () => {
 };
 
 const init = () => {
-    const changeBackgroundButton = document.querySelector(".js-changeBackground");
+    const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
     
     changeBackgroundButton.addEventListener("click", toggleBackground);
 
