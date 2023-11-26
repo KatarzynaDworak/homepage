@@ -2,6 +2,10 @@ body {
     color: #222;
     background: #eee;
 }
+
+.article__image {}
+
+.article__image {}
 .body--white {
     background: white;
 }
